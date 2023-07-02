@@ -22,7 +22,9 @@ public class DataGenerator {
         }
 
         public static String generateCity(String locale) { // используя массив валидных городов и класс Random
-            String[] city = new String[]{"Москва", "Новосибирск", "Казань", "Омск", "Омск"};
+            String[] city = new String[]{"Москва", "Санкт-Петербург", "Новосибирск", "Казань", "Екатеринбург", "Омск", "Томск",
+                    "Челябинск", "Красноярск", "Самара", "Уфа", "Ростов-на-Дону", "Краснодар", "Воронеж",
+                    "Волгоград", "Пермь" };
             Random rnd = new Random();
             int mIndex = rnd.nextInt(city.length);
 
